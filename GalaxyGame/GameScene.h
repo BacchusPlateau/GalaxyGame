@@ -7,7 +7,14 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <CoreMotion/CoreMotion.h>
 
 @interface GameScene : SKScene
+
+@property SKLabelNode *scoreLabel;
+@property CMMotionManager *mManager;
+@property SKSpriteNode *playerShip;
+@property NSMutableArray *playerBullets;
 
 @end

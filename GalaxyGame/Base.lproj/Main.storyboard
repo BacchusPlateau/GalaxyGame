@@ -26,6 +26,9 @@
                                 <rect key="frame" x="40" y="583" width="306" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="PlayButton"/>
+                                <connections>
+                                    <segue destination="MTC-4c-aDD" kind="presentation" id="iAm-Ca-adw"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="rl4-rV-C1V">
                                 <rect key="frame" x="42" y="31" width="303" height="58"/>

@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA14B4371FF173C7005DAF3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA14B4361FF173C7005DAF3A /* AppDelegate.m */; };
+		BA14B4391FF173C7005DAF3A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA14B4381FF173C7005DAF3A /* GameScene.sks */; };
+		BA14B43B1FF173C7005DAF3A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA14B43A1FF173C7005DAF3A /* Actions.sks */; };
+		BA14B43E1FF173C7005DAF3A /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BA14B43D1FF173C7005DAF3A /* GameScene.m */; };
+		BA14B4411FF173C7005DAF3A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA14B4401FF173C7005DAF3A /* GameViewController.m */; };
+		BA14B4441FF173C7005DAF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA14B4421FF173C7005DAF3A /* Main.storyboard */; };
+		BA14B4461FF173C7005DAF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA14B4451FF173C7005DAF3A /* Assets.xcassets */; };
+		BA14B4491FF173C7005DAF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA14B4471FF173C7005DAF3A /* LaunchScreen.storyboard */; };
+		BA14B44C1FF173C7005DAF3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA14B44B1FF173C7005DAF3A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA14B4321FF173C7005DAF3A /* GalaxyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalaxyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA14B4351FF173C7005DAF3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA14B4361FF173C7005DAF3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA14B4381FF173C7005DAF3A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BA14B43A1FF173C7005DAF3A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		BA14B43C1FF173C7005DAF3A /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		BA14B43D1FF173C7005DAF3A /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		BA14B43F1FF173C7005DAF3A /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		BA14B4401FF173C7005DAF3A /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		BA14B4431FF173C7005DAF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA14B4451FF173C7005DAF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA14B4481FF173C7005DAF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA14B44A1FF173C7005DAF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA14B44B1FF173C7005DAF3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA14B42F1FF173C7005DAF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA14B4291FF173C7005DAF3A = {
+			isa = PBXGroup;
+			children = (
+				BA14B4341FF173C7005DAF3A /* GalaxyGame */,
+				BA14B4331FF173C7005DAF3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA14B4331FF173C7005DAF3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA14B4321FF173C7005DAF3A /* GalaxyGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA14B4341FF173C7005DAF3A /* GalaxyGame */ = {
+			isa = PBXGroup;
+			children = (
+				BA14B4351FF173C7005DAF3A /* AppDelegate.h */,
+				BA14B4361FF173C7005DAF3A /* AppDelegate.m */,
+				BA14B4381FF173C7005DAF3A /* GameScene.sks */,
+				BA14B43A1FF173C7005DAF3A /* Actions.sks */,
+				BA14B43C1FF173C7005DAF3A /* GameScene.h */,
+				BA14B43D1FF173C7005DAF3A /* GameScene.m */,
+				BA14B43F1FF173C7005DAF3A /* GameViewController.h */,
+				BA14B4401FF173C7005DAF3A /* GameViewController.m */,
+				BA14B4421FF173C7005DAF3A /* Main.storyboard */,
+				BA14B4451FF173C7005DAF3A /* Assets.xcassets */,
+				BA14B4471FF173C7005DAF3A /* LaunchScreen.storyboard */,
+				BA14B44A1FF173C7005DAF3A /* Info.plist */,
+				BA14B44B1FF173C7005DAF3A /* main.m */,
+			);
+			path = GalaxyGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA14B4311FF173C7005DAF3A /* GalaxyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA14B44F1FF173C7005DAF3A /* Build configuration list for PBXNativeTarget "GalaxyGame" */;
+			buildPhases = (
+				BA14B42E1FF173C7005DAF3A /* Sources */,
+				BA14B42F1FF173C7005DAF3A /* Frameworks */,
+				BA14B4301FF173C7005DAF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GalaxyGame;
+			productName = GalaxyGame;
+			productReference = BA14B4321FF173C7005DAF3A /* GalaxyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA14B42A1FF173C7005DAF3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bret Williams";
+				TargetAttributes = {
+					BA14B4311FF173C7005DAF3A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA14B42D1FF173C7005DAF3A /* Build configuration list for PBXProject "GalaxyGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA14B4291FF173C7005DAF3A;
+			productRefGroup = BA14B4331FF173C7005DAF3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA14B4311FF173C7005DAF3A /* GalaxyGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA14B4301FF173C7005DAF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA14B4441FF173C7005DAF3A /* Main.storyboard in Resources */,
+				BA14B4391FF173C7005DAF3A /* GameScene.sks in Resources */,
+				BA14B4461FF173C7005DAF3A /* Assets.xcassets in Resources */,
+				BA14B4491FF173C7005DAF3A /* LaunchScreen.storyboard in Resources */,
+				BA14B43B1FF173C7005DAF3A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA14B42E1FF173C7005DAF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA14B43E1FF173C7005DAF3A /* GameScene.m in Sources */,
+				BA14B4411FF173C7005DAF3A /* GameViewController.m in Sources */,
+				BA14B44C1FF173C7005DAF3A /* main.m in Sources */,
+				BA14B4371FF173C7005DAF3A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA14B4421FF173C7005DAF3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA14B4431FF173C7005DAF3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA14B4471FF173C7005DAF3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA14B4481FF173C7005DAF3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA14B44D1FF173C7005DAF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA14B44E1FF173C7005DAF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA14B4501FF173C7005DAF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R29T922PDR;
+				INFOPLIST_FILE = GalaxyGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aeschinder.GalaxyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA14B4511FF173C7005DAF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R29T922PDR;
+				INFOPLIST_FILE = GalaxyGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aeschinder.GalaxyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA14B42D1FF173C7005DAF3A /* Build configuration list for PBXProject "GalaxyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA14B44D1FF173C7005DAF3A /* Debug */,
+				BA14B44E1FF173C7005DAF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA14B44F1FF173C7005DAF3A /* Build configuration list for PBXNativeTarget "GalaxyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA14B4501FF173C7005DAF3A /* Debug */,
+				BA14B4511FF173C7005DAF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA14B42A1FF173C7005DAF3A /* Project object */;
+}

@@ -56,6 +56,19 @@
             [self.playerBullets addObject:bullet];
             [self addChild:bullet];
         }
+        
+        self.enemies = [[NSMutableArray alloc] initWithCapacity:enemyCount];
+        for(int i=0; i<enemyCount; ++i) {
+            NSString *enemyName = [NSString stringWithFormat:@"enemy0%ld.png", (random() % 3) + 1];
+            SKSpriteNode *enemy = [SKSpriteNode spriteNodeWithImageNamed:enemyName];
+            enemy.position = CGPointMake(enemy.size.width + (i*enemy.size.width), 400);
+            enemy.hidden = FALSE;
+            [self.enemies addObject:enemy];
+            [self addChild:enemy];
+        }
+        
+        
+        
     }
     return self;
 }
@@ -117,10 +130,51 @@
     
 }
 
+-(void)collisionDetection {
+    
+    for(SKSpriteNode *enemy in self.enemies) {
+        if(enemy.hidden == TRUE)
+            continue;
+        for(SKSpriteNode *bullet in self.playerBullets) {
+            if(bullet.hidden == TRUE)
+                continue;
+            if([bullet intersectsNode:enemy]) {
+                bullet.hidden = TRUE;
+                enemy.hidden = TRUE;
+                playerScore++;
+                self.scoreLabel.text = [NSString stringWithFormat:@"%d", playerScore];
+                NSString *soundName = @"impact01";
+                [self playSoundEffect: soundName];
+                continue;
+            }
+        }
+    }
+}
+
+-(void)playSoundEffect: (NSString *) effectName {
+    
+    NSDataAsset* soundAsset = [[NSDataAsset alloc] initWithName:effectName];
+    NSError *error;
+    audioEffect = [[AVAudioPlayer alloc] initWithData:soundAsset.data fileTypeHint:@"wav" error:&error];
+    
+    if (!audioEffect) {
+        NSLog(@"Player Failed with error: %@", error);
+    } else {
+        audioEffect.numberOfLoops = 0;
+        [audioEffect prepareToPlay];
+        [audioEffect play];
+    }
+}
+
 -(void)update:(CFTimeInterval)currentTime {
     
     [self shipUpdates];
+    [self enemyUpdates];
+    [self collisionDetection];
     
+}
+
+-(void)enemyUpdates{
 }
 
 @end

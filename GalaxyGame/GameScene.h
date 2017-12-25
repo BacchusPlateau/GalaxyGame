@@ -16,5 +16,6 @@
 @property CMMotionManager *mManager;
 @property SKSpriteNode *playerShip;
 @property NSMutableArray *playerBullets;
+@property NSMutableArray *enemies;
 
 @end

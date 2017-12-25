@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SpriteKit/SpriteKit.h>
-#import <GameplayKit/GameplayKit.h>
+
+//#import <GameplayKit/GameplayKit.h>
 
 @interface GameViewController : UIViewController
+
+-(IBAction)unwindToThisView:(UIStoryboardSegue *)unwindSegue;
 
 @end

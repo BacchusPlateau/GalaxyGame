@@ -16,6 +16,7 @@
 		BA14B4461FF173C7005DAF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA14B4451FF173C7005DAF3A /* Assets.xcassets */; };
 		BA14B4491FF173C7005DAF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA14B4471FF173C7005DAF3A /* LaunchScreen.storyboard */; };
 		BA14B44C1FF173C7005DAF3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA14B44B1FF173C7005DAF3A /* main.m */; };
+		BA14B4541FF17539005DAF3A /* GalaxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA14B4531FF17539005DAF3A /* GalaxyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		BA14B4481FF173C7005DAF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA14B44A1FF173C7005DAF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA14B44B1FF173C7005DAF3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA14B4521FF17539005DAF3A /* GalaxyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalaxyViewController.h; sourceTree = "<group>"; };
+		BA14B4531FF17539005DAF3A /* GalaxyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalaxyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				BA14B4471FF173C7005DAF3A /* LaunchScreen.storyboard */,
 				BA14B44A1FF173C7005DAF3A /* Info.plist */,
 				BA14B44B1FF173C7005DAF3A /* main.m */,
+				BA14B4521FF17539005DAF3A /* GalaxyViewController.h */,
+				BA14B4531FF17539005DAF3A /* GalaxyViewController.m */,
 			);
 			path = GalaxyGame;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA14B43E1FF173C7005DAF3A /* GameScene.m in Sources */,
+				BA14B4541FF17539005DAF3A /* GalaxyViewController.m in Sources */,
 				BA14B4411FF173C7005DAF3A /* GameViewController.m in Sources */,
 				BA14B44C1FF173C7005DAF3A /* main.m in Sources */,
 				BA14B4371FF173C7005DAF3A /* AppDelegate.m in Sources */,
